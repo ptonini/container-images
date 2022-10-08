@@ -1,3 +1,4 @@
 {
-  "vault-update-action": "0.0.0"
+  "vault-update-action": "0.0.0",
+  "object-update-action": "1.0.0"
 }
