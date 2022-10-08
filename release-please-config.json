@@ -6,6 +6,13 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "toolbox": {
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
