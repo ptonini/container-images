@@ -1,5 +1,5 @@
 FROM docker.io/debian:buster-slim
-MAINTAINER Pedro Tonini <pedro.tonini@nodis.com.br>
+MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 # x-release-please-start-version
 ENV VERSION="1.0.0"
 # x-release-please-end
