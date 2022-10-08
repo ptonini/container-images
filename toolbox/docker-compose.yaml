@@ -1,6 +1,6 @@
 version: '3'
 services:
   toolbox:
-    image: ghcr.io/ptonini/toolbox:1.0.0    # x-release-please-version
+    image: ghcr.io/ptonini/toolbox:1.1.0    # x-release-please-version
     build:
       context: .
