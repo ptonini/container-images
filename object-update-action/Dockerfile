@@ -20,6 +20,6 @@ RUN apt-get update && \
 
 COPY entrypoint.sh /
 
-USER botman
+USER updater
 
 ENTRYPOINT ["/entrypoint.sh"]
