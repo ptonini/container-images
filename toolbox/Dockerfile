@@ -1,7 +1,7 @@
 FROM docker.io/debian:buster-slim
 MAINTAINER Pedro Tonini <pedro.tonini@nodis.com.br>
 # x-release-please-start-version
-ENV VERSION="0.0.0"
+ENV VERSION="1.0.0"
 # x-release-please-end
 
 ARG DEBIAN_RELEASE=buster
