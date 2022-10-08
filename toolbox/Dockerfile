@@ -58,4 +58,4 @@ RUN apt-get update && \
     \
     setcap cap_ipc_lock= /usr/bin/vault
 
-CMD ["/bin/bash"]
+CMD ["/bin/sh", "-c", "while true; do sleep 3600; done"]
