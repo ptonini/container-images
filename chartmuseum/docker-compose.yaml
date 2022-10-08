@@ -1,0 +1,10 @@
+version: '2'
+services:
+  chartmuseum:
+    image: ghcr.io/ptonini/chartmuseum:0.0.0 # x-release-please-version
+    build:
+      context: .
+    environment:
+      STORAGE: local
+      STORAGE_LOCAL_ROOTDIR: /tmp
+      VAULT_ENV_FILE: /vault/secrets/credentials

@@ -1,0 +1,8 @@
+version: '2'
+services:
+  netcat:
+    image: ghcr.io/ptonini/netcat:0.0.0    # x-release-please-version
+    build:
+      context: .
+    ports:
+      - "9999:9999"

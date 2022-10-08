@@ -1,0 +1,6 @@
+version: '2'
+services:
+  pypicloud:
+    image: ghcr.io/ptonini/pypicloud # x-release-please-version
+    build:
+      context: .
