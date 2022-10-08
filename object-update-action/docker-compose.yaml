@@ -1,0 +1,11 @@
+version: '2'
+services:
+  object-update-action:
+    image: ghcr.io/ptonini/object-update-action:0.0.0  #x-release-please-version
+    build:
+      context: .
+    environment:
+      OBJECT: /secrets
+      ACTION: echo psql  -p 5432 -U pgbouncer pgbouncer -c 'RELOAD;'
+    volumes:
+      - ./test:/secrets
