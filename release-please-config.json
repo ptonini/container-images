@@ -1,6 +1,15 @@
 {
   "packages": {
     "object-update-action": {
+      "release-name": "object-update-action",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
+    },
+    "toolbox": {
+      "release-name": "toolbox",
       "release-type": "simple",
       "extra-files": [
         "Dockerfile",
