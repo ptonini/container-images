@@ -19,7 +19,7 @@ RUN apt-get update && \
     chown pypicloud /vault/secrets && \
     mkdir -p /var/lib/pypicloud && \
     chown pypicloud /var/lib/pypicloud && \
-    mkdir -p /etc/pypicloud && \
+    mkdir -p /etc/pypicloud
 ADD config.ini /etc/pypicloud/config.ini
 
 USER pypicloud
