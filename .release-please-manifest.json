@@ -1,4 +1,7 @@
 {
   "object-update-action": "1.0.0",
-  "toolbox": "1.0.0"
+  "toolbox": "1.0.0",
+  "chartmuseum": "1.0.0",
+  "netcat": "1.0.0",
+  "pypicloud": "1.0.0"
 }
