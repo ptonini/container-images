@@ -39,6 +39,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "botman": {
+      "package-name": "botman",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
