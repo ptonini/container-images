@@ -3,5 +3,6 @@
   "toolbox": "1.1.0",
   "chartmuseum": "1.0.0",
   "netcat": "1.0.0",
-  "pypicloud": "1.0.0"
+  "pypicloud": "1.0.0",
+  "botman": "1.0.0"
 }
