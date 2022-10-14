@@ -1,7 +1,7 @@
 version: '2'
 services:
   botman:
-    image: ghcr.io/ptonini/botman:0.0.0    # x-release-please-version
+    image: ghcr.io/ptonini/botman:1.0.0    # x-release-please-version
     command:
       - ping
       - www.google.com
