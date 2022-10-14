@@ -2,7 +2,7 @@ FROM docker.io/debian:buster-slim
 
 MAINTAINER Pedro Tonini <pedro.tonini@nodis.com.br>
 # x-release-please-start-version
-ENV VERSION="1.0.0"
+ENV VERSION="1.0.1"
 # x-release-please-end
 
 ENV RUNTIME_FLAGS="-e"
