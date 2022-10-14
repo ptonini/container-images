@@ -2,11 +2,9 @@ version: '2'
 services:
   botman:
     image: ghcr.io/ptonini/botman:1.0.0    # x-release-please-version
-    command:
-      - ping
-      - www.google.com
     build:
       context: .
     environment:
-      SECRETS_FILE: /vault/secrets/secrets_file
-#      DEBUG: "true"
+      AWS_SHARED_CREDENTIALS_FILE: /test/credentials
+    volumes:
+      - ./test:/test

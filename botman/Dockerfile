@@ -13,7 +13,7 @@ ARG DEBIAN_RELEASE=buster
 
 RUN apt-get update && \
     apt-get install -y -q sudo wget curl gnupg ca-certificates apt-transport-https unzip jq \
-    certbot python-certbot* python3-certbot* csvkit dnsutils && \
+    certbot python-certbot* python3-certbot* csvkit dnsutils less groff && \
     \
     wget -qO - https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
     echo "deb https://packages.cloud.google.com/apt cloud-sdk main" > /etc/apt/sources.list.d/google-cloud-sdk.list && \
