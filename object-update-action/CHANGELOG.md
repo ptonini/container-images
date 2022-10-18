@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ptonini/docker-images/compare/object-update-action-v1.0.1...object-update-action-v1.1.0) (2022-10-18)
+
+
+### Features
+
+* **object-update-action:** updated base image to alpine 3.16 ([5791f6d](https://github.com/ptonini/docker-images/commit/5791f6d415ac10b381e9248afffb6c8c692e9a9f))
+
 ## [1.0.1](https://github.com/ptonini/docker-images/compare/object-update-action-v1.0.0...object-update-action-v1.0.1) (2022-10-09)
 
 
