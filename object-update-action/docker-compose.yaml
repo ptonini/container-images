@@ -5,7 +5,7 @@ services:
     build:
       context: .
     environment:
-      OBJECT: /secrets
-      ACTION: echo psql  -p 5432 -U pgbouncer pgbouncer -c 'RELOAD;'
+      OBJECT: /secrets/test
+      ACTION: psql -p 5432 -U pgbouncer pgbouncer -c 'RELOAD;'
     volumes:
       - ./test:/secrets

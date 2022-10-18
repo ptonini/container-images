@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 [ -n "${RUNTIME_FLAGS}" ] && set "${RUNTIME_FLAGS}"
 [ "${DEBUG}" = "true" ] && set -x +e
 
