@@ -1,4 +1,3 @@
-#!/usr/bin/env sh
+#!/bin/sh
 set -o nounset
-
-/bin/nc -l "${BIND_ADDRESS}" "${PORT}"
+/usr/bin/nc -l "${BIND_ADDRESS}" "${PORT}"

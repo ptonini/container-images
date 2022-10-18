@@ -1,13 +1,15 @@
-FROM docker.io/debian:buster-slim
+FROM docker.io/alpine:3.16
+
 MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 # x-release-please-start-version
 ENV VERSION="1.0.0"
 # x-release-please-end
 
-RUN apt-get update && \
-    apt-get install -y -q netcat-openbsd net-tools iproute2 && \
-    apt-get -y purge sudo && \
-    useradd -Ums /bin/sh netcat
+RUN apk update && \
+    apk upgrade && \
+    apk add netcat-openbsd && \
+    adduser -H -D -s /bin/sh netcat
+
 COPY entrypoint.sh /
 
 ENV BIND_ADDRESS="0.0.0.0"
