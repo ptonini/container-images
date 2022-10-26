@@ -1,7 +1,7 @@
 version: '2'
 services:
   external-dns:
-    image: ghcr.io/ptonini/external-dns:0.0.0    # x-release-please-version
+    image: ghcr.io/ptonini/external-dns:1.0.0    # x-release-please-version
     build:
       context: .
     command:
