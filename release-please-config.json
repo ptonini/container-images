@@ -47,6 +47,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "external-dns": {
+      "package-name": "external-dns",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }

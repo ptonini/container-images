@@ -1,0 +1,22 @@
+version: '2'
+services:
+  external-dns:
+    image: ghcr.io/ptonini/external-dns:0.0.0    # x-release-please-version
+    build:
+      context: .
+    command:
+      - --kubeconfig=/etc/kubeconfig/config
+      - --source=service
+      - --source=ingress
+      - --provider=aws
+      - --domain-filter=nodis.com.br
+      - --domain-filter=wikiprod.nodis.com.br
+      - --policy=upsert-only
+      - --registry=txt
+      - --txt-owner-id=external-dns
+    
+    environment:
+      TARGET: /secrets/test
+    volumes:
+      - ./test:/secrets
+      - /home/ptonini/.kube/:/etc/kubeconfig/
