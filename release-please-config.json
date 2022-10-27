@@ -55,6 +55,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "psql-bot": {
+      "package-name": "psql-bot",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
