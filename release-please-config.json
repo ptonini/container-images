@@ -55,6 +55,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "psql-bot": {
+      "package-name": "external-dns",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
