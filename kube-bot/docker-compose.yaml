@@ -1,0 +1,8 @@
+version: '2'
+services:
+  kube-bot:
+    image: ghcr.io/ptonini/kube-bot:0.0.0  #x-release-please-version
+    build:
+      context: .
+    volumes:
+      - ./test:/test

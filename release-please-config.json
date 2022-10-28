@@ -63,6 +63,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "kube-bot": {
+      "package-name": "kube-bot",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
