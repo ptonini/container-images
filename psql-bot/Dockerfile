@@ -5,5 +5,5 @@ MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 ENV VERSION="1.0.0"
 # x-release-please-end
 
-RUN apk add postgresql-client
+RUN apk add jq inotify-tools bash postgresql-client
 USER 65534
