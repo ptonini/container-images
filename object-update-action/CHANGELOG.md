@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ptonini/docker-images/compare/object-update-action-v1.1.0...object-update-action-v1.2.0) (2022-10-29)
+
+
+### Miscellaneous Chores
+
+* **object-update-action:** updated source image in Dockerfile ([ca41afc](https://github.com/ptonini/docker-images/commit/ca41afc545bf0331cacd778daae9f3e1de8ba8d1))
+
 ## [1.1.0](https://github.com/ptonini/docker-images/compare/object-update-action-v1.0.1...object-update-action-v1.1.0) (2022-10-18)
 
 
