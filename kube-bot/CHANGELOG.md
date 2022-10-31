@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ptonini/docker-images/compare/kube-bot-v1.1.0...kube-bot-v1.2.0) (2022-10-31)
+
+
+### Features
+
+* **kube-bot:** added curl command to image ([bf0b895](https://github.com/ptonini/docker-images/commit/bf0b89541c54d65a57e69c144c15f2ae21389e58))
+
 ## [1.1.0](https://github.com/ptonini/docker-images/compare/kube-bot-v1.0.0...kube-bot-v1.1.0) (2022-10-29)
 
 
