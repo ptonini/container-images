@@ -71,6 +71,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "kube-inotify-action": {
+      "package-name": "kube-inotify-action",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
