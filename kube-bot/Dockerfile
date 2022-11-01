@@ -7,4 +7,6 @@ ENV VERSION="1.2.0"
 
 RUN apk add curl jq inotify-tools bash && \
     apk add helm kubectl --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/
-USER 65534
+    adduser -H -D -s /bin/sh kube
+
+USER kube
