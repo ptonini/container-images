@@ -1,4 +1,4 @@
-FROM ghcr.io/ptonini/kube-bot:1.2.0
+FROM ghcr.io/ptonini/kube-bot:1.2.1
 
 MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 # x-release-please-start-version
