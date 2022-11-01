@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/ptonini/docker-images/compare/kube-bot-v1.2.0...kube-bot-v1.2.1) (2022-11-01)
+
+
+### Bug Fixes
+
+* **kube-bot:** restored user ([89c7d90](https://github.com/ptonini/docker-images/commit/89c7d90b867e0f545dd18035cc8773c3de378e4b))
+
 ## [1.2.0](https://github.com/ptonini/docker-images/compare/kube-bot-v1.1.0...kube-bot-v1.2.0) (2022-10-31)
 
 
