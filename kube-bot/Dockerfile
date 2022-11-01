@@ -2,7 +2,7 @@ FROM docker.io/alpine:3.16
 
 MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 # x-release-please-start-version
-ENV VERSION="1.2.1"
+ENV VERSION="1.2.2"
 # x-release-please-end
 
 RUN apk add curl jq inotify-tools bash && \
