@@ -2,7 +2,7 @@ FROM ghcr.io/ptonini/psql-bot:1.1.0
 
 MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 # x-release-please-start-version
-ENV VERSION="1.0.1"
+ENV VERSION="1.0.0"
 # x-release-please-end
 
 ENV DEBUG="false"
