@@ -8,5 +8,6 @@
   "external-dns": "1.0.0",
   "psql-bot": "1.1.0",
   "kube-bot": "1.2.2",
-  "kube-inotify-action": "1.0.1"
+  "kube-inotify-action": "1.0.1",
+  "psql-inotify-action": "1.0.0"
 }
