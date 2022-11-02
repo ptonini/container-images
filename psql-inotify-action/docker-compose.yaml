@@ -1,0 +1,11 @@
+version: '2'
+services:
+  psql-inotify-action:
+    image: ghcr.io/ptonini/psql-inotify-action:0.0.0  #x-release-please-version
+    build:
+      context: .
+    environment:
+      INOTIFY_TARGET: /secrets/test
+      ACTION: psql -p 5432 -U pgbouncer pgbouncer -c 'RELOAD;'
+    volumes:
+      - ./test:/secrets

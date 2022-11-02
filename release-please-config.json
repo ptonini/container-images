@@ -79,6 +79,14 @@
         "Dockerfile",
         "docker-compose.yaml"
       ]
+    },
+    "psql-inotify-action": {
+      "package-name": "psql-inotify-action",
+      "release-type": "simple",
+      "extra-files": [
+        "Dockerfile",
+        "docker-compose.yaml"
+      ]
     }
   }
 }
