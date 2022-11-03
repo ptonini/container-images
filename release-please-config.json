@@ -8,14 +8,6 @@
         "docker-compose.yaml"
       ]
     },
-    "chartmuseum": {
-      "package-name": "chartmuseum",
-      "release-type": "simple",
-      "extra-files": [
-        "Dockerfile",
-        "docker-compose.yaml"
-      ]
-    },
     "netcat": {
       "package-name": "netcat",
       "release-type": "simple",
