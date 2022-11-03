@@ -5,15 +5,12 @@ MAINTAINER Pedro Tonini <pedro.tonini@hotmail.com>
 ENV VERSION="1.1.0"
 # x-release-please-end
 
-RUN apk update && \
-    apk upgrade && \
-    apk add netcat-openbsd && \
-    adduser -H -D -s /bin/sh netcat
+RUN apk add netcat-openbsd
 
 COPY entrypoint.sh /
 
 ENV BIND_ADDRESS="0.0.0.0"
 ENV PORT="9999"
 
-USER netcat
-ENTRYPOINT ["/entrypoint.sh"]
+USER 65534
+CMD ["/entrypoint.sh"]
