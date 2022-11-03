@@ -56,6 +56,9 @@ RUN apt-get update && \
     \
     curl -sL https://aka.ms/InstallAzureCLIDeb | bash && \
     \
+    apt-get clean && \
+    apt-get autoclean && \
+    \
     setcap cap_ipc_lock= /usr/bin/vault
 
 CMD ["/bin/sh", "-c", "while true; do sleep 3600; done"]
