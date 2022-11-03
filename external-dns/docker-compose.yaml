@@ -5,18 +5,14 @@ services:
     build:
       context: .
     command:
-      - --kubeconfig=/etc/kubeconfig/config
+      - --kubeconfig=/secrets/kubeconfig
       - --source=service
       - --source=ingress
       - --provider=aws
-      - --domain-filter=nodis.com.br
-      - --domain-filter=wikiprod.nodis.com.br
-      - --policy=upsert-only
-      - --registry=txt
-      - --txt-owner-id=external-dns
-    
     environment:
-      TARGET: /secrets/test
+      INOTIFY_ARGS: -eMODIFY
+      INOTIFY_TARGET: /secrets/test
     volumes:
       - ./test:/secrets
-      - /home/ptonini/.kube/:/etc/kubeconfig/
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
