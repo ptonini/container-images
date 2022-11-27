@@ -1,6 +1,6 @@
 {
   "packages": {
-    "toolbox": {
+    "images/toolbox": {
       "package-name": "toolbox",
       "release-type": "simple",
       "extra-files": [
@@ -8,7 +8,7 @@
         "docker-compose.yaml"
       ]
     },
-    "netcat": {
+    "images/netcat": {
       "package-name": "netcat",
       "release-type": "simple",
       "extra-files": [
@@ -16,7 +16,7 @@
         "docker-compose.yaml"
       ]
     },
-    "pypicloud": {
+    "images/pypicloud": {
       "package-name": "pypicloud",
       "release-type": "simple",
       "extra-files": [
@@ -24,7 +24,7 @@
         "docker-compose.yaml"
       ]
     },
-    "external-dns": {
+    "images/external-dns": {
       "package-name": "external-dns",
       "release-type": "simple",
       "extra-files": [
@@ -32,7 +32,7 @@
         "docker-compose.yaml"
       ]
     },
-    "psql-bot": {
+    "images/psql-bot": {
       "package-name": "psql-bot",
       "release-type": "simple",
       "extra-files": [
@@ -40,7 +40,7 @@
         "docker-compose.yaml"
       ]
     },
-    "kube-bot": {
+    "images/kube-bot": {
       "package-name": "kube-bot",
       "release-type": "simple",
       "extra-files": [
@@ -48,7 +48,7 @@
         "docker-compose.yaml"
       ]
     },
-    "kube-inotify-action": {
+    "images/kube-inotify-action": {
       "package-name": "kube-inotify-action",
       "release-type": "simple",
       "extra-files": [
@@ -56,7 +56,7 @@
         "docker-compose.yaml"
       ]
     },
-    "psql-inotify-action": {
+    "images/psql-inotify-action": {
       "package-name": "psql-inotify-action",
       "release-type": "simple",
       "extra-files": [
