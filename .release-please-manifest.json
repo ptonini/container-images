@@ -1,12 +1,11 @@
 {
-  "toolbox": "1.1.0",
-  "netcat": "1.1.0",
-  "pypicloud": "1.0.0",
-  "botman": "1.0.1",
-  "external-dns": "1.0.0",
-  "psql-bot": "1.1.0",
-  "kube-bot": "1.2.2",
-  "kube-inotify-action": "1.0.1",
-  "psql-inotify-action": "1.0.0",
+  "images/toolbox": "1.1.0",
+  "images/netcat": "1.1.0",
+  "images/pypicloud": "1.0.0",
+  "images/botman": "1.0.1",
+  "images/external-dns": "1.0.0",
+  "images/psql-bot": "1.1.0",
+  "images/kube-bot": "1.2.2",
+  "images/psql-inotify-action": "1.0.0",
   "images/kube-inotify-action": "1.1.0"
 }
