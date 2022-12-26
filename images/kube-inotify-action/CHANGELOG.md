@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2022-12-26)
+
+
+### Features
+
+* **kube-inotify-action:** added RUN_BEFORE_LOOP flag ([5eca99a](https://github.com/ptonini/container-images/commit/5eca99a6427874fc3493cfca10975a1b821ec09a))
+
 ## [1.0.1](https://github.com/ptonini/docker-images/compare/kube-inotify-action-v1.0.0...kube-inotify-action-v1.0.1) (2022-11-01)
 
 
