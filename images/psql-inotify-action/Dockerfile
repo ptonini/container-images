@@ -6,6 +6,7 @@ ENV VERSION="1.0.0"
 # x-release-please-end
 
 ENV DEBUG="false"
+ENV RUN_BEFORE_LOOP="false"
 ENV WAIT_TIME="0"
 ENV RUNTIME_FLAGS="-e"
 ENV INOTIFY_ARGS="-eMODIFY"
