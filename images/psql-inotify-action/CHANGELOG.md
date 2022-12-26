@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ptonini/container-images/compare/psql-inotify-action-v1.0.0...psql-inotify-action-v1.1.0) (2022-12-26)
+
+
+### Features
+
+* **psql-inotify-action:** added RUN_BEFORE_LOOP flag ([6720643](https://github.com/ptonini/container-images/commit/67206435baec6d28f1de6703b4191286481106ac))
+
 ## 1.0.0 (2022-11-02)
 
 
