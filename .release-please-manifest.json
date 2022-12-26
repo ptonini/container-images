@@ -6,6 +6,6 @@
   "images/external-dns": "1.0.0",
   "images/psql-bot": "1.1.0",
   "images/kube-bot": "1.2.2",
-  "images/psql-inotify-action": "1.0.0",
+  "images/psql-inotify-action": "1.1.0",
   "images/kube-inotify-action": "1.1.0"
 }

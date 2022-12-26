@@ -1,7 +1,7 @@
 version: '2'
 services:
   psql-inotify-action:
-    image: ghcr.io/ptonini/psql-inotify-action:1.0.0  #x-release-please-version
+    image: ghcr.io/ptonini/psql-inotify-action:1.1.0  #x-release-please-version
     build:
       context: .
     environment:
