@@ -27,8 +27,9 @@ jobs:
         with:
           name: release-please-outputs
       - run: echo "VERSION=$(jq -r --arg A "${{ matrix.path }}--version" '.[$A]' outputs)" | tee -a $GITHUB_ENV
+      - run: echo "REPOSITORY=$(echo ${{ matrix.path }} | sed 's/image\///)' | tee -a $GITHUB_ENV
       - uses: ptonini/gha-publish-docker-image@main
         with:
-          repository: ${{ secrets.REPOSITORY_PREFIX }}/${{ matrix.path }}
+          repository: ${{ secrets.REPOSITORY_PREFIX }}/${{ env.REPOSITORY }}
           tags: latest ${{ env.VERSION }}
           path: ${{ github.workspace }}/${{ matrix.path }}
