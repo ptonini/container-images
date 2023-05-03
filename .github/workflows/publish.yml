@@ -21,4 +21,3 @@ jobs:
         path: ${{ fromJSON(needs.release_please.outputs.paths_released) }}
     with:
       path: ${{ matrix.path }}
-      packages: ${{ needs.release_please.outputs.packages }}
